@@ -3,8 +3,11 @@
 Fonts
 ===============
 */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lalezar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap");
 /*
 =============== 
 Variables
@@ -67,11 +70,12 @@ Global Styles
   box-sizing: border-box;
 }
 body {
-  font-family: var(--ff-secondary);
+  /* font-family: var(--ff-secondary); */
+  /* font-family: "Fredoka One", cursive; */
   background: var(--clr-grey-10);
   color: var(--clr-grey-1);
   line-height: 1.5;
-  font-size: 0.875rem;
+  font-size: 2rem;
 }
 ul {
   list-style-type: none;
@@ -87,7 +91,7 @@ h4 {
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
-  font-family: var(--ff-primary);
+  /* font-family: var(--ff-primary); */
 }
 h1 {
   font-size: 3rem;
@@ -164,12 +168,13 @@ nav {
   box-shadow: var(--dark-shadow);
 }
 .nav-center {
-  width: 90vw;
+  width: 100vw;
   max-width: var(--fixed-width);
   margin: 0 auto;
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+  font-family: "Work Sans", sans-serif;
   justify-content: space-between;
 }
 .nav-center h4 {
@@ -185,6 +190,7 @@ nav a {
   font-size: 1.5rem;
   color: rgb(235, 86, 27);
   letter-spacing: var(--spacing);
+  font-family: "Work Sans", sans-serif;
   margin-right: 1rem;
 }
 nav a:hover {
@@ -210,14 +216,14 @@ main {
   /* border: 2px solid #fff; */
   border-radius: 10rem;
   margin-bottom: 2.5rem;
-  /* font-family: futura; */
+  font-family: "Work Sans", sans-serif;
 }
 .color {
   color: rgb(255, 207, 77);
   text-transform: uppercase;
 }
 .btn-hero {
-  font-family: var(--ff-primary);
+  font-family: "Work Sans", sans-serif;
   text-transform: uppercase;
   background: transparent;
   color: var(--clr-black);
@@ -229,7 +235,7 @@ main {
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: 25rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: 0.75rem 1.25rem;
 }
 .btn-hero:hover {
@@ -257,5 +263,13 @@ button:active {
 
   .btn-hero {
     margin-top: 2.5rem;
+  }
+
+  .nav-center {
+    margin: auto 15px;
+  }
+
+  .nav-links {
+    margin: auto 15px;
   }
 }
