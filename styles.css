@@ -206,8 +206,8 @@ main {
 .container h2 {
   background: rgb(32, 32, 32);
   color: var(--clr-white);
-  padding: 2.5rem;
-  border: 2px solid #fff;
+  padding: 2rem;
+  /* border: 2px solid #fff; */
   border-radius: 10rem;
   margin-bottom: 2.5rem;
   /* font-family: futura; */
@@ -247,4 +247,15 @@ button:active {
 /* removes active button blue border */
 *:focus {
   outline: none !important;
+}
+
+/* Media Query: Tablet or Smaller */
+@media screen and (max-width: 1000px) {
+  .container h2 {
+    margin: auto 15px;
+  }
+
+  .btn-hero {
+    margin-top: 2.5rem;
+  }
 }
