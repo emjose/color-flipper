@@ -158,7 +158,7 @@ Nav
 */
 nav {
   background: var(--clr-white);
-  height: 3rem;
+  height: 5rem;
   display: grid;
   align-items: center;
   box-shadow: var(--dark-shadow);
@@ -169,6 +169,7 @@ nav {
   margin: 0 auto;
   display: flex;
   align-items: center;
+  font-size: 1.5rem;
   justify-content: space-between;
 }
 .nav-center h4 {
@@ -181,8 +182,8 @@ nav {
 nav a {
   text-transform: capitalize;
   font-weight: 700;
-  font-size: 1rem;
-  color: var(--clr-primary-1);
+  font-size: 1.5rem;
+  color: rgb(235, 86, 27);
   letter-spacing: var(--spacing);
   margin-right: 1rem;
 }
@@ -203,14 +204,17 @@ main {
   text-align: center;
 }
 .container h2 {
-  background: var(--clr-black);
+  background: rgb(32, 32, 32);
   color: var(--clr-white);
-  padding: 1rem;
-  border-radius: var(--radius);
+  padding: 2.5rem;
+  border: 2px solid #fff;
+  border-radius: 10rem;
   margin-bottom: 2.5rem;
+  /* font-family: futura; */
 }
 .color {
-  color: var(--clr-primary-5);
+  color: rgb(255, 207, 77);
+  text-transform: uppercase;
 }
 .btn-hero {
   font-family: var(--ff-primary);
@@ -221,14 +225,26 @@ main {
   display: inline-block;
   font-weight: 700;
   transition: var(--transition);
-  border: 2px solid var(--clr-black);
+  border: 2px solid #fff;
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  border-radius: var(--radius);
+  border-radius: 25rem;
   font-size: 1rem;
   padding: 0.75rem 1.25rem;
 }
 .btn-hero:hover {
   color: var(--clr-white);
   background: var(--clr-black);
+  filter: brightness(110%);
+  border-radius: 25rem;
+}
+
+button:active {
+  transform: translate(0, 0.5rem);
+  box-shadow: 0 0.1rem rgba(255, 255, 255, 0.95);
+}
+
+/* removes active button blue border */
+*:focus {
+  outline: none !important;
 }
