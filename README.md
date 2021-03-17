@@ -8,12 +8,7 @@
 <a href=#table-of-contents>![Table of Contents](Assets/inter-toc.png)</a>  
 
 - [100 Days of Code](#100days)
-- [Background](#background) 
-- [Technologies](#technologies) 
-- [Getting Started](#getting-started) 
 - [Installation](#installation) 
-- [Features](#features) 
-- [Demos](#demos)
 - [Demo](#demo)
 - [Resources](#resources)
 - [Let's Connect!](#lets-connect) 
@@ -29,52 +24,9 @@ test
 
 #
 
-<p id="background"><p>
-
-<a href=#table-of-contents>![Background](Assets/inter-background.png)</a>  
-
-test\
-test
-
-#
-
-<p id="technologies"><p>
-
-<a href=#table-of-contents>![Technologies](Assets/inter-technologies.png)</a>  
-test\
-test
-
-#
-
-<p id="getting-started"><p>
-
-<a href=#table-of-contents>![Getting Started](Assets/inter-getting-started.png)</a>  
-• test\
-• test\
-test
-
-#
-
 <p id="installation"><p>
 
 <a href=#table-of-contents>![Installation](Assets/inter-installation.png)</a>  
-test\
-test
-
-#
-
-<p id="features"><p>
-
-<a href=#table-of-contents>![Features](Assets/inter-features.png)</a>  
-test\
-test
-
-#
-
-<p id="demos"><p>
-
-<a href=#table-of-contents>![Demos](Assets/inter-demos.png)</a>  
-
 test\
 test
 
@@ -106,5 +58,9 @@ test
 
 #
 
-<a href=#project-title>![Back to Top](Assets/inter-congrats.png)</a>
+<a href=#project-title>![Back to Top](Assets/inter-congrats.png)</a> 
+
+
+
+
 
