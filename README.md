@@ -1,4 +1,4 @@
-<p id="Project-title"><p>
+<p id="project-title"><p>
 
 <a href=#table-of-contents>![Project Title](Assets/inter-002-color-flipper.png)</a> 
 
@@ -7,7 +7,7 @@
 
 <a href=#table-of-contents>![Table of Contents](Assets/inter-toc.png)</a>  
 
-- [100 Days of Code](#100)
+- [100 Days of Code](#100days)
 - [Background](#background) 
 - [Technologies](#technologies) 
 - [Getting Started](#getting-started) 
@@ -106,5 +106,5 @@ test
 
 #
 
-<a href=#Project-title>![Back to Top](Assets/inter-congrats.png)</a>
+<a href=#project-title>![Back to Top](Assets/inter-congrats.png)</a>
 
