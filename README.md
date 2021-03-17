@@ -1,8 +1,9 @@
 <p id="project-title"><p>
 
-<a href=#table-of-contents>![Project Title](Assets/inter-002-color-flipper.png)</a> 
+<a href=#table-of-contents>![Color Flipper](Assets/inter-002-color-flipper.png)</a> 
 
 #
+
 <p id="table-of-contents"><p>
 
 <a href=#table-of-contents>![Table of Contents](Assets/inter-toc.png)</a>  
