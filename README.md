@@ -1,7 +1,7 @@
 <!-- <p id="project-title"><p>
 
 <a href=#table-of-contents>![Project Title](Assets/inter-project-title.png)</a>  -->
-
+<!-- 
 #
 <p id="table-of-contents"><p>
 
@@ -96,4 +96,4 @@ test
 
 #
 
-<a href=#Project-Title>![Back to Top](Assets/inter-congrats.png)</a>
+<a href=#Project-Title>![Back to Top](Assets/inter-congrats.png)</a> -->
