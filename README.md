@@ -2,7 +2,7 @@
 
 <a href=#table-of-contents>![Color Flipper](Assets/inter-002-color-flipper.png)</a> 
 
-<a href="https://emjose.github.io/color-flipper/">![](Assets/preview-002-color-flipper.png)</a> 
+<a href="https://emjose.github.io/color-flipper/">![Color Flipper](Assets/preview-002-color-flipper.png)</a> 
 
 #
 
