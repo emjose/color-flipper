@@ -33,16 +33,15 @@
 
 <a href=#table-of-contents>![#100DaysOfCode](Assets/inter-100hash.png)</a>  
 
-test\
-test
+<a href=#100days>![under construction](Assets/lorem-text.png)</a>
 
 #
 
 <p id="installation"><p>
 
-<a href=#table-of-contents>![Installation](Assets/inter-installation.png)</a>  
-test\
-test
+<a href=#table-of-contents>![Installation](Assets/inter-installation.png)</a>
+
+<a href=#installation>![under construction](Assets/lorem-text.png)</a>
 
 #
 
@@ -50,8 +49,7 @@ test
 
 <a href=#table-of-contents>![Demos](Assets/inter-demo.png)</a>  
 
-test\
-test
+<a href=#demo>![under construction](Assets/lorem-text.png)</a>
 
 #
 
@@ -59,8 +57,7 @@ test
 
 <a href=#table-of-contents>![Demos](Assets/inter-resources.png)</a>  
 
-test\
-test
+<a href=#resources>![under construction](Assets/lorem-text.png)</a>
 
 #
 
