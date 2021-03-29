@@ -51,9 +51,9 @@ git clone git@github.com:emjose/color-flipper.git && cd color-flipper
 ```
 open index.html
 ```
-#### The **Simple** category has a mixture of hexadecimal, rgba, and basic color values.
+The **Simple** category has a mixture of hexadecimal, rgba, and basic color values.
 
-#### The **Hex** category has only hexadecimal color values.
+The **Hex** category has only hexadecimal color values.
 
 #
 
