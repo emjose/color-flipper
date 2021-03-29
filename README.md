@@ -34,7 +34,8 @@
 
 <a href=#100days>![#100DaysOfCode](Assets/inter-100hash.png)</a>  
 
-<a href=#100days>![Under Construction](Assets/lorem-text.png)</a>
+### Day 2: February 3, 2021
+- For Day 2, I completed a tutorial on making a background color flipper project.
 
 #
 
@@ -50,6 +51,9 @@ git clone git@github.com:emjose/color-flipper.git && cd color-flipper
 ```
 open index.html
 ```
+#### The **Simple** category has a mixture of hexadecimal, rgba, and basic color values.
+
+#### The **Hex** category has only hexadecimal color values.
 
 #
 
@@ -57,7 +61,7 @@ open index.html
 
 <a href="https://emjose.github.io/color-flipper/">![Live Site](Assets/inter-live-site.png)</a>  
 
-<a href="https://emjose.github.io/color-flipper/">![Under Construction](Assets/lorem-live.png)</a>
+<a href="https://emjose.github.io/color-flipper/">![Live Site](Assets/002-color.gif)</a>
 
 #
 
@@ -65,7 +69,9 @@ open index.html
 
 <a href=#resources>![Resources](Assets/inter-resources.png)</a>  
 
-<a href=#resources>![Under Construction](Assets/lorem-text.png)</a>
+- #### [Color Flipper Tutorial](https://youtu.be/c5SIG7Ie0dM?t=421) by [Coding Addict](https://www.youtube.com/channel/UCMZFwxv5l-XtKi693qMJptA)
+
+- #### [Javascript Tutorial and Projects Udemy Course](https://www.udemy.com/course/javascript-tutorial-for-beginners-w/) by [John Smilga](https://www.johnsmilga.com/)
 
 #
 
