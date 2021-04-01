@@ -73,6 +73,8 @@ open index.html
 
 - #### [Javascript Tutorial and Projects Udemy Course](https://www.udemy.com/course/javascript-tutorial-for-beginners-w/) by [John Smilga](https://www.johnsmilga.com/)
 
+- #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd) 
+
 #
 
 <p id="lets-connect"><p>
