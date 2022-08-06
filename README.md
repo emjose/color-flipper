@@ -46,19 +46,15 @@
 
 #### Git clone and cd into the repo folder:
 
-```
+```console
 git clone git@github.com:emjose/color-flipper.git && cd color-flipper
 ```
 
 #### Run the command:
 
-```
+```console
 open index.html
 ```
-
--   The **Simple** category has a mixture of hexadecimal, rgba, and basic color values.
-
--   The **Hex** category has only hexadecimal color values.
 
 #
 
@@ -67,6 +63,10 @@ open index.html
 <a href="https://emjose.github.io/color-flipper/">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
 
 <a href="https://emjose.github.io/color-flipper/">![Live Site](Assets/002-color.gif)</a>
+
+-   The **Simple** category has a mixture of hexadecimal, rgba, and basic color values.
+
+-   The **Hex** category has only hexadecimal color values.
 
 #
 
