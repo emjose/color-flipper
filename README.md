@@ -28,6 +28,8 @@
 -   [Resources](#resources)
 -   [Let's Connect!](#lets-connect)
 
+<br>
+
 #
 
 <p id="100days"><p>
@@ -37,6 +39,14 @@
 ### Day 2: February 3, 2021
 
 -   For Day 2, I completed a tutorial on making a background color flipper project.
+
+-   **September 2022 Update**:
+
+    -   The **[Color Flipper](https://emjose.github.io/color-flipper/)** was refactored to be a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+
+    -   Styling was modified for greater accessibility, keyboard navigation, and responsiveness.
+
+<br>
 
 #
 
@@ -56,6 +66,8 @@ git clone git@github.com:emjose/color-flipper.git && cd color-flipper
 open index.html
 ```
 
+<br>
+
 #
 
 <p id="live-site"><p>
@@ -64,9 +76,15 @@ open index.html
 
 <a href="https://emjose.github.io/color-flipper/">![Live Site](Assets/002-color.gif)</a>
 
--   The **Simple** category has a mixture of hexadecimal, rgba, and basic color values.
+• The **[Color Flipper](https://emjose.github.io/color-flipper/)** is responsive and keyboard-navigable for accessibility.
 
--   The **Hex** category has only hexadecimal color values.
+• The **[Color Flipper](https://emjose.github.io/color-flipper/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+
+• The **Simple** category has [146 color names and keywords recognized by CSS](https://www.w3.org/wiki/CSS/Properties/color/keywords).
+
+• The **Hex** category has hexadecimal color values.
+
+<br>
 
 #
 
@@ -74,11 +92,15 @@ open index.html
 
 <a href=#resources>![Resources](https://res.cloudinary.com/dn1e07eul/image/upload/v1659314247/Readme%20Headers/inter-resources_ncevbw.png)</a>
 
+-   #### [CSS Keywords](https://www.w3.org/wiki/CSS/Properties/color/keywords)
+
 -   #### [Color Flipper Tutorial](https://youtu.be/c5SIG7Ie0dM?t=421) by [Coding Addict](https://www.youtube.com/channel/UCMZFwxv5l-XtKi693qMJptA)
 
 -   #### [Javascript Tutorial and Projects Udemy Course](https://www.udemy.com/course/javascript-tutorial-for-beginners-w/) by [John Smilga](https://www.johnsmilga.com/)
 
 -   #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
+
+<br>
 
 #
 
