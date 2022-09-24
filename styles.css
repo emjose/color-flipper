@@ -5,6 +5,7 @@
 	--white: #fff;
 	--black: #000;
 	--azure: #f0ffff;
+	--deepskyblue: deepskyblue;
 	--mustard: rgb(255, 207, 77);
 	--orange: rgb(235, 86, 27);
 	--mobile-color: rgb(211, 60, 0);
@@ -28,7 +29,7 @@
 }
 
 body {
-	background: var(--azure);
+	background: var(--deepskyblue);
 	color: var(--off-black);
 	line-height: 1.25;
 	font-size: 2rem;
