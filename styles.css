@@ -4,12 +4,12 @@
 	--fixed-width: 620px;
 	--white: #fff;
 	--black: #000;
+	--azure: #f0ffff;
 	--mustard: rgb(255, 207, 77);
 	--orange: rgb(235, 86, 27);
 	--mobile-color: rgb(211, 60, 0);
 	--blue: rgb(33, 121, 237);
 	--off-black: #151513;
-	--default-background: #f1f5f8;
 	--oval-background: rgb(32, 32, 32);
 	--github-fill: var(--off-black);
 	--github-color: var(--white);
@@ -28,7 +28,7 @@
 }
 
 body {
-	background: var(--default-background);
+	background: var(--azure);
 	color: var(--off-black);
 	line-height: 1.25;
 	font-size: 2rem;

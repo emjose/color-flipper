@@ -29,8 +29,8 @@
 			"type": "image/png"
 		}
 	],
-	"theme_color": "#F1F5F8",
-	"background_color": "#F1F5F8",
+	"theme_color": "#F0FFFF",
+	"background_color": "#F0FFFF",
 	"display": "standalone",
 	"lang": "en-US",
 	"id": "https://emjose.github.io/color-flipper/",
