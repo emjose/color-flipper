@@ -1,0 +1,40 @@
+{
+	"name": "Color Flipper",
+	"short_name": "Color Flipper",
+	"icons": [
+		{
+			"src": "Assets/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "Assets/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		},
+		{
+			"src": "Assets/android-chrome-200x200.png",
+			"sizes": "200x200",
+			"type": "image/png",
+			"purpose": "maskable"
+		},
+		{
+			"src": "Assets/favicon-16x16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "Assets/favicon-32x32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#F1F5F8",
+	"background_color": "#F1F5F8",
+	"display": "standalone",
+	"lang": "en-US",
+	"id": "https://emjose.github.io/color-flipper/",
+	"start_url": "/color-flipper/",
+	"scope": "/color-flipper/",
+	"description": "A background color flipper."
+}
