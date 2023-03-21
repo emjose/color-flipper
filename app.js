@@ -1,215 +1,400 @@
-const btn = document.getElementById("btn");
-const color = document.querySelector(".color");
-
-btn.addEventListener("click", function () {
-	// get random number based on color array
-	const randomNumber = getRandomNumber();
-
-	document.body.style.backgroundColor = colors[randomNumber];
-	color.textContent = colors[randomNumber];
-});
-
-function getRandomNumber() {
-	return Math.floor(Math.random() * colors.length);
+const _0x3e658e = _0x2c6a;
+function _0x20e1() {
+	const _0x2982fa = [
+		"Tomato",
+		"Azure",
+		"DarkViolet",
+		"DarkGoldenrod",
+		"DodgerBlue",
+		"Ivory",
+		"MediumOrchid",
+		"LightGreen",
+		"color:\x20rgba(238,58,136,1)",
+		"Bisque",
+		"DimGrey",
+		"FloralWhite",
+		"BlanchedAlmond",
+		"border-radius:\x204px",
+		"width:\x20200px",
+		"LightCyan",
+		"DarkSalmon",
+		"DarkGrey",
+		"Khaki",
+		".color",
+		"183042lcoDHE",
+		"btn",
+		"LightSeagreen",
+		"Cyan",
+		"LightSteelBlue",
+		"DarkTurquoise",
+		"MediumPurple",
+		"MediumBlue",
+		"PapayaWhip",
+		"Orange",
+		"padding:\x2016px",
+		"LightSlateGrey",
+		"168358QlhXNq",
+		"SteelBlue",
+		"%c❤️",
+		"DarkSeagreen",
+		"Plum",
+		"2529430KsUTLk",
+		"AntiqueWhite",
+		"LightBlue",
+		"CadetBlue",
+		"Turquoise",
+		"DarkOrange",
+		"PaleTurquoise",
+		"MistyRose",
+		"querySelector",
+		"%cLinkedin\x20%chttps://bit.ly/3cygAD4",
+		"Sienna",
+		"color:\x20#fff",
+		"AliceBlue",
+		"5786440AvjpeR",
+		"textContent",
+		"LightGray",
+		"Moccasin",
+		"LightGoldenrodYellow",
+		"Olive",
+		"Brown",
+		"Magenta",
+		"Lavender",
+		"LightCoral",
+		"Peru",
+		"Fuchsia",
+		"Thistle",
+		"Grey",
+		"Black",
+		"Maroon",
+		"MediumVioletRed",
+		"Tan",
+		"font-size:\x2020px",
+		"margin:\x206px\x200\x206px\x200",
+		"2530804aMjLhR",
+		"HotPink",
+		"Seashell",
+		"Crimson",
+		"Lime",
+		"Gray",
+		"Coral",
+		"join",
+		"%cThank\x20you\x20for\x20checking\x20out\x20my\x20work!",
+		"Red",
+		"backgroundColor",
+		"padding:\x208px",
+		"font-size:\x2014px",
+		"DarkCyan",
+		"LemonChiffon",
+		"MidnightBlue",
+		"YellowGreen",
+		"register",
+		"LightSalmon",
+		"DarkGreen",
+		"Burlywood",
+		"%cPortfolio%chttps://bit.ly/3QQr1Ux",
+		"background:\x20rgba(238,58,136,1)",
+		"Orchid",
+		"Yellow",
+		"OliveDrab",
+		"MintCream",
+		"Wheat",
+		"%cHello\x20World!\x20I\x27m\x20Emmanuel.",
+		"PaleGoldenrod",
+		"LightSkyBlue",
+		"MediumAquamarine",
+		"LightYellow",
+		"Salmon",
+		"Honeydew",
+		"NavajoWhite",
+		"Goldenrod",
+		"8DCtCvp",
+		"PaleVioletRed",
+		"DeepPink",
+		"margin:\x206px\x200\x206px\x2014px",
+		"IndianRed",
+		"ForestGreen",
+		"DarkBlue",
+		"PaleGreen",
+		"SlateGray",
+		"then",
+		"LightSlateGray",
+		"Violet",
+		"Indigo",
+		"margin:\x204px\x200\x204px\x204px",
+		"DarkKhaki",
+		"CornflowerBlue",
+		"Gold",
+		"2082216hWqpRV",
+		"LightPink",
+		"MediumSpringGreen",
+		"%cGithub\x20\x20\x20%chttps://bit.ly/3iwQC6U",
+		"8052303IZUaiM",
+		"font-size:\x2018px",
+		"%cHave\x20a\x20wonderful\x20day!",
+		"BlueViolet",
+		"Firebrick",
+		"RoyalBlue",
+		"Sandybrown",
+		"LawnGreen",
+		"Snow",
+		"scope",
+		"SaddleBrown",
+		"padding:\x2012px",
+		"12jvxqYo",
+		"Aqua",
+		"Seagreen",
+		"color:\x20white",
+		"log",
+		"Purple",
+		"White",
+		"DarkSlateBlue",
+		"PowderBlue",
+		"10SePIUT",
+		"PeachPuff",
+		"%cThe\x20README\x20\x20\x20%chttps://bit.ly/3BVUmbr",
+		"length",
+		"DimGray",
+		"SkyBlue",
+		"/color-flipper/",
+		"LimeGreen",
+		"serviceWorker",
+	];
+	_0x20e1 = function () {
+		return _0x2982fa;
+	};
+	return _0x20e1();
 }
-
-// Color keywords from:
-// https://www.w3.org/wiki/CSS/Properties/color/keywords
-
+(function (_0x3aa50b, _0x9a1c43) {
+	const _0x339f57 = _0x2c6a,
+		_0x669739 = _0x3aa50b();
+	while (!![]) {
+		try {
+			const _0x32aee4 =
+				(-parseInt(_0x339f57(0x1cb)) / 0x1) * (parseInt(_0x339f57(0x1f4)) / 0x2) +
+				-parseInt(_0x339f57(0x1b2)) / 0x3 +
+				-parseInt(_0x339f57(0x21a)) / 0x4 +
+				(-parseInt(_0x339f57(0x1f9)) / 0x5) * (-parseInt(_0x339f57(0x1c2)) / 0x6) +
+				parseInt(_0x339f57(0x1b6)) / 0x7 +
+				(parseInt(_0x339f57(0x1a1)) / 0x8) * (parseInt(_0x339f57(0x1e8)) / 0x9) +
+				parseInt(_0x339f57(0x206)) / 0xa;
+			if (_0x32aee4 === _0x9a1c43) break;
+			else _0x669739["push"](_0x669739["shift"]());
+		} catch (_0x1d22cb) {
+			_0x669739["push"](_0x669739["shift"]());
+		}
+	}
+})(_0x20e1, 0x90a88);
+const btn = document["getElementById"](_0x3e658e(0x1e9)),
+	color = document[_0x3e658e(0x201)](_0x3e658e(0x1e7));
+btn["addEventListener"]("click", function () {
+	const _0x3957e0 = _0x3e658e,
+		_0x3c7e42 = getRandomNumber();
+	(document["body"]["style"][_0x3957e0(0x224)] = colors[_0x3c7e42]), (color[_0x3957e0(0x207)] = colors[_0x3c7e42]);
+});
+function getRandomNumber() {
+	const _0xba68c3 = _0x3e658e;
+	return Math["floor"](Math["random"]() * colors[_0xba68c3(0x1ce)]);
+}
+function _0x2c6a(_0x3cd9df, _0xcad53f) {
+	const _0x20e142 = _0x20e1();
+	return (
+		(_0x2c6a = function (_0x2c6aa4, _0x42903a) {
+			_0x2c6aa4 = _0x2c6aa4 - 0x18c;
+			let _0x509cb4 = _0x20e142[_0x2c6aa4];
+			return _0x509cb4;
+		}),
+		_0x2c6a(_0x3cd9df, _0xcad53f)
+	);
+}
 const colors = [
-	"AliceBlue",
-	"AntiqueWhite",
-	"Aqua",
+	_0x3e658e(0x205),
+	_0x3e658e(0x1fa),
+	_0x3e658e(0x1c3),
 	"Aquamarine",
-	"Azure",
+	_0x3e658e(0x1d5),
 	"Beige",
-	"Bisque",
-	"Black",
-	"BlanchedAlmond",
+	_0x3e658e(0x1dd),
+	_0x3e658e(0x214),
+	_0x3e658e(0x1e0),
 	"Blue",
-	"BlueViolet",
-	"Brown",
-	"Burlywood",
-	"CadetBlue",
+	_0x3e658e(0x1b9),
+	_0x3e658e(0x20c),
+	_0x3e658e(0x190),
+	_0x3e658e(0x1fc),
 	"Chartreuse",
 	"Chocolate",
-	"Coral",
-	"CornflowerBlue",
+	_0x3e658e(0x220),
+	_0x3e658e(0x1b0),
 	"Cornsilk",
-	"Crimson",
-	"Cyan",
-	"DarkBlue",
-	"DarkCyan",
-	"DarkGoldenrod",
+	_0x3e658e(0x21d),
+	_0x3e658e(0x1eb),
+	_0x3e658e(0x1a7),
+	_0x3e658e(0x227),
+	_0x3e658e(0x1d7),
 	"DarkGray",
-	"DarkGreen",
-	"DarkGrey",
-	"DarkKhaki",
+	_0x3e658e(0x18f),
+	_0x3e658e(0x1e5),
+	_0x3e658e(0x1af),
 	"DarkMagenta",
 	"DarkOliveGreen",
-	"DarkOrange",
+	_0x3e658e(0x1fe),
 	"DarkOrchid",
 	"DarkRed",
-	"DarkSalmon",
-	"DarkSeagreen",
-	"DarkSlateBlue",
+	_0x3e658e(0x1e4),
+	_0x3e658e(0x1f7),
+	_0x3e658e(0x1c9),
 	"DarkSlateGray",
 	"DarkSlateGrey",
-	"DarkTurquoise",
-	"DarkViolet",
-	"DeepPink",
+	_0x3e658e(0x1ed),
+	_0x3e658e(0x1d6),
+	_0x3e658e(0x1a3),
 	"DeepSkyBlue",
-	"DimGray",
-	"DimGrey",
-	"DodgerBlue",
-	"Firebrick",
-	"FloralWhite",
-	"ForestGreen",
-	"Fuchsia",
+	_0x3e658e(0x1cf),
+	_0x3e658e(0x1de),
+	_0x3e658e(0x1d8),
+	_0x3e658e(0x1ba),
+	_0x3e658e(0x1df),
+	_0x3e658e(0x1a6),
+	_0x3e658e(0x211),
 	"Gainsboro",
 	"GhostWhite",
-	"Gold",
-	"Goldenrod",
-	"Gray",
+	_0x3e658e(0x1b1),
+	_0x3e658e(0x1a0),
+	_0x3e658e(0x21f),
 	"Green",
 	"GreenYellow",
-	"Grey",
-	"Honeydew",
-	"HotPink",
-	"IndianRed",
-	"Indigo",
-	"Ivory",
-	"Khaki",
-	"Lavender",
+	_0x3e658e(0x213),
+	_0x3e658e(0x19e),
+	_0x3e658e(0x21b),
+	_0x3e658e(0x1a5),
+	_0x3e658e(0x1ad),
+	_0x3e658e(0x1d9),
+	_0x3e658e(0x1e6),
+	_0x3e658e(0x20e),
 	"LavenderBlush",
-	"LawnGreen",
-	"LemonChiffon",
-	"LightBlue",
-	"LightCoral",
-	"LightCyan",
-	"LightGoldenrodYellow",
-	"LightGray",
-	"LightGreen",
+	_0x3e658e(0x1bd),
+	_0x3e658e(0x228),
+	_0x3e658e(0x1fb),
+	_0x3e658e(0x20f),
+	_0x3e658e(0x1e3),
+	_0x3e658e(0x20a),
+	_0x3e658e(0x208),
+	_0x3e658e(0x1db),
 	"LightGrey",
-	"LightPink",
-	"LightSalmon",
-	"LightSeagreen",
-	"LightSkyBlue",
-	"LightSlateGray",
-	"LightSlateGrey",
-	"LightSteelBlue",
-	"LightYellow",
-	"Lime",
-	"LimeGreen",
+	_0x3e658e(0x1b3),
+	_0x3e658e(0x18e),
+	_0x3e658e(0x1ea),
+	_0x3e658e(0x19a),
+	_0x3e658e(0x1ab),
+	_0x3e658e(0x1f3),
+	_0x3e658e(0x1ec),
+	_0x3e658e(0x19c),
+	_0x3e658e(0x21e),
+	_0x3e658e(0x1d2),
 	"Linen",
-	"Magenta",
-	"Maroon",
-	"MediumAquamarine",
-	"MediumBlue",
-	"MediumOrchid",
-	"MediumPurple",
+	_0x3e658e(0x20d),
+	_0x3e658e(0x215),
+	_0x3e658e(0x19b),
+	_0x3e658e(0x1ef),
+	_0x3e658e(0x1da),
+	_0x3e658e(0x1ee),
 	"MediumSeagreen",
 	"MediumSlateBlue",
-	"MediumSpringGreen",
+	_0x3e658e(0x1b4),
 	"MediumTurquoise",
-	"MediumVioletRed",
-	"MidnightBlue",
-	"MintCream",
-	"MistyRose",
-	"Moccasin",
-	"NavajoWhite",
+	_0x3e658e(0x216),
+	_0x3e658e(0x229),
+	_0x3e658e(0x196),
+	_0x3e658e(0x200),
+	_0x3e658e(0x209),
+	_0x3e658e(0x19f),
 	"Navy",
 	"OldLace",
-	"Olive",
-	"OliveDrab",
-	"Orange",
+	_0x3e658e(0x20b),
+	_0x3e658e(0x195),
+	_0x3e658e(0x1f1),
 	"OrangeRed",
-	"Orchid",
-	"PaleGoldenrod",
-	"PaleGreen",
-	"PaleTurquoise",
-	"PaleVioletRed",
-	"PapayaWhip",
-	"PeachPuff",
-	"Peru",
+	_0x3e658e(0x193),
+	_0x3e658e(0x199),
+	_0x3e658e(0x1a8),
+	_0x3e658e(0x1ff),
+	_0x3e658e(0x1a2),
+	_0x3e658e(0x1f0),
+	_0x3e658e(0x1cc),
+	_0x3e658e(0x210),
 	"Pink",
-	"Plum",
-	"PowderBlue",
-	"Purple",
-	"Red",
+	_0x3e658e(0x1f8),
+	_0x3e658e(0x1ca),
+	_0x3e658e(0x1c7),
+	_0x3e658e(0x223),
 	"RosyBrown",
-	"RoyalBlue",
-	"SaddleBrown",
-	"Salmon",
-	"Sandybrown",
-	"Seagreen",
-	"Seashell",
-	"Sienna",
+	_0x3e658e(0x1bb),
+	_0x3e658e(0x1c0),
+	_0x3e658e(0x19d),
+	_0x3e658e(0x1bc),
+	_0x3e658e(0x1c4),
+	_0x3e658e(0x21c),
+	_0x3e658e(0x203),
 	"Silver",
-	"SkyBlue",
+	_0x3e658e(0x1d0),
 	"SlateBlue",
-	"SlateGray",
+	_0x3e658e(0x1a9),
 	"SlateGrey",
-	"Snow",
+	_0x3e658e(0x1be),
 	"SpringGreen",
-	"SteelBlue",
-	"Tan",
+	_0x3e658e(0x1f5),
+	_0x3e658e(0x217),
 	"Teal",
-	"Thistle",
-	"Tomato",
-	"Turquoise",
-	"Violet",
-	"Wheat",
-	"White",
+	_0x3e658e(0x212),
+	_0x3e658e(0x1d4),
+	_0x3e658e(0x1fd),
+	_0x3e658e(0x1ac),
+	_0x3e658e(0x197),
+	_0x3e658e(0x1c8),
 	"WhiteSmoke",
-	"Yellow",
-	"YellowGreen",
+	_0x3e658e(0x194),
+	_0x3e658e(0x18c),
 ];
-
 function swRegistration() {
-	const heart = ["font-size: 20px", "padding: 12px", "margin: 4px 0 4px 4px", "color: rgba(238,58,136,1)"].join(";");
-	if ("serviceWorker" in navigator) {
-		navigator.serviceWorker
-			.register("/color-flipper/sw.js", {
-				scope: "/color-flipper/",
-			})
-			.then(function (registration) {
-				console.log("%c❤️", heart);
-			})
-			.catch(function (err) {
-				console.log(err);
-			});
+	const _0x3eda15 = _0x3e658e,
+		_0x2c81b7 = [_0x3eda15(0x218), _0x3eda15(0x1c1), _0x3eda15(0x1ae), _0x3eda15(0x1dc)]["join"](";");
+	if (_0x3eda15(0x1d3) in navigator) {
+		const _0x279189 = {};
+		(_0x279189[_0x3eda15(0x1bf)] = _0x3eda15(0x1d1)),
+			navigator[_0x3eda15(0x1d3)]
+				[_0x3eda15(0x18d)]("/color-flipper/sw.js", _0x279189)
+				[_0x3eda15(0x1aa)](function (_0x45cdef) {
+					const _0x554ddb = _0x3eda15;
+					console[_0x554ddb(0x1c6)](_0x554ddb(0x1f6), _0x2c81b7);
+				})
+				["catch"](function (_0x3b4910) {
+					console["log"](_0x3b4910);
+				});
 	}
 }
-
 function consoleText() {
-	console.clear();
-	const styles = [
-		"color: white",
-		"background: rgba(238,58,136,1)",
-		"font-size: 18px",
-		"padding: 12px",
-		"margin: 6px 0 6px 14px",
-	].join(";");
-	const styles2 = ["font-size: 14px", "padding: 16px", "margin: 6px 0 6px 0", "color: rgba(238,58,136,1)"].join(";");
-	console.log("%cHello World! I'm Emmanuel.", styles);
-	console.log("%cThank you for checking out my work!", styles2);
-	const gradient = [
-		"font-size: 14px",
-		"color: #fff",
-		"width: 200px",
-		"padding: 8px",
-		"margin: 6px 0 6px 14px",
-		"border-radius: 4px",
-		"background: rgba(238,58,136,1)",
-		"background: linear-gradient( 109.6deg, rgba(238,58,136,1) 11.2%, rgba(128,162,245,1) 91.1% )",
-	].join(";");
-	console.log("%cPortfolio%chttps://bit.ly/3QQr1Ux", gradient, styles2);
-	console.log("%cLinkedin %chttps://bit.ly/3cygAD4", gradient, styles2);
-	console.log("%cGithub   %chttps://bit.ly/3iwQC6U", gradient, styles2);
-	console.log("%cThe README   %chttps://bit.ly/3BVUmbr", gradient, styles2);
-	console.log("%cHave a wonderful day!", styles2);
+	const _0x3650dc = _0x3e658e;
+	console["clear"]();
+	const _0x39a105 = [_0x3650dc(0x1c5), _0x3650dc(0x192), _0x3650dc(0x1b7), "padding:\x2012px", _0x3650dc(0x1a4)][
+			_0x3650dc(0x221)
+		](";"),
+		_0x7d48c3 = [_0x3650dc(0x226), _0x3650dc(0x1f2), _0x3650dc(0x219), _0x3650dc(0x1dc)][_0x3650dc(0x221)](";");
+	console[_0x3650dc(0x1c6)](_0x3650dc(0x198), _0x39a105), console[_0x3650dc(0x1c6)](_0x3650dc(0x222), _0x7d48c3);
+	const _0x225c86 = [
+		"font-size:\x2014px",
+		_0x3650dc(0x204),
+		_0x3650dc(0x1e2),
+		_0x3650dc(0x225),
+		_0x3650dc(0x1a4),
+		_0x3650dc(0x1e1),
+		_0x3650dc(0x192),
+		"background:\x20linear-gradient(\x20109.6deg,\x20rgba(238,58,136,1)\x2011.2%,\x20rgba(128,162,245,1)\x2091.1%\x20)",
+	][_0x3650dc(0x221)](";");
+	console[_0x3650dc(0x1c6)](_0x3650dc(0x191), _0x225c86, _0x7d48c3),
+		console[_0x3650dc(0x1c6)](_0x3650dc(0x202), _0x225c86, _0x7d48c3),
+		console[_0x3650dc(0x1c6)](_0x3650dc(0x1b5), _0x225c86, _0x7d48c3),
+		console[_0x3650dc(0x1c6)](_0x3650dc(0x1cd), _0x225c86, _0x7d48c3),
+		console["log"](_0x3650dc(0x1b8), _0x7d48c3);
 }
-
-swRegistration();
-consoleText();
+swRegistration(), consoleText();
